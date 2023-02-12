@@ -1,0 +1,178 @@
+#hero {
+  padding-bottom: 75px;
+}
+
+.hero__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__content {
+  max-width: 546px;
+}
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.hero__title {
+  font-family: $font;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 72px;
+  letter-spacing: -0.553846px;
+  color: #36536b;
+  margin-bottom: 21px;
+}
+
+.hero__input {
+  display: flex;
+  width: 445px;
+  height: 46px;
+  background: #fbfcfe;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 24px;
+  margin-bottom: 16px;
+  justify-content: space-between;
+}
+
+.input {
+  border: none;
+  padding-left: 27px;
+  background: #fbfcfe;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.hero__text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #6c8294;
+}
+
+.hero__span {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration-line: underline;
+  color: #6c8294;
+}
+
+.hero__btn {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.115385px;
+  color: #fbfcfe;
+  padding: 14px 25px;
+  background-color: #ba4270;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 24px;
+
+  &:hover{
+    background: #DA6D97;
+
+  }
+}
+
+@media only screen and (max-width: 902px) {
+  #hero {
+    padding-bottom: 100px;
+  }
+
+  .hero__container {
+    max-width: 902px;
+    display: block;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero__content {
+    max-width: 573px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+  }
+
+  .hero__title {
+    font-size: 48px;
+    line-height: 56px;
+    max-width: 510px;
+    margin: 0 auto;
+    margin-bottom: 22px;
+  }
+
+  .hero__input {
+    max-width: 445px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #hero {
+    padding-bottom: 80px;
+  }
+
+  .hero__container {
+    max-width: 367px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero__content {
+    max-width: 327px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+  }
+
+  .hero__title {
+    font-size: 32px;
+    line-height: 36px;
+    max-width: 327px;
+    margin-bottom: 24px;
+  }
+
+  .hero__input {
+    max-width: 287px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 90px;
+  }
+
+  .label {
+    max-width: 287px;
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero__btn {
+    display: block;
+  }
+
+  .input {
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 24px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 287px;
+    display: block;
+  }
+}

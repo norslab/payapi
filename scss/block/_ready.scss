@@ -1,0 +1,111 @@
+#ready {
+    margin-bottom: 96px;
+}
+
+.ready__block {
+    max-width: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ready__title {
+    font-family: $font;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.369231px;
+    color: #36536b;
+}
+
+.ready__input {
+    display: flex;
+    width: 445px;
+    height: 46px;
+    background: #fbfcfe;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    margin-bottom: 0px;
+    justify-content: space-between;
+}
+
+.input {
+    border: none;
+    padding-left: 27px;
+    background: #fbfcfe;
+    border-radius: 24px;
+}
+
+.site-header__btn {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.115385px;
+    color: #fbfcfe;
+    padding: 14px 25px;
+    background-color: #ba4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+}
+
+@media only screen and (max-width: 892px) {
+    .ready__block {
+        max-width: 445px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .ready__title {
+        margin-bottom: 48px;
+    }
+}
+
+@media only screen and (max-width: 532px) {
+    #ready {
+        margin-bottom: 150px;
+    }
+
+    .ready__block {
+        max-width: 328px;
+    }
+
+    .ready__title {
+        margin-bottom: 32px;
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .ready__input {
+        max-width: 287px;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .label {
+        max-width: 287px;
+        display: block;
+        margin-top: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero__btn {
+        display: block;
+    }
+
+    .input {
+        padding-right: 100px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 24px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 287px;
+        display: block;
+    }
+}
