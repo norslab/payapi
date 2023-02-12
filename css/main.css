@@ -186,7 +186,7 @@ a {
     border: none;
     background-color: transparent;
     background-repeat: no-repeat;
-    background-image: url(../../img/menu.svg);
+    background-image: url(../img/menu.svg);
     background-position: center;
     cursor: pointer;
   }
@@ -733,13 +733,13 @@ a {
   margin-bottom: 32px;
 }
 .box__item:nth-child(1)::before {
-  background-image: url(../../img/box-1.svg);
+  background-image: url(../img/box-1.svg);
 }
 .box__item:nth-child(2)::before {
-  background-image: url(../../img/box-2.svg);
+  background-image: url(../img/box-2.svg);
 }
 .box__item:nth-child(3)::before {
-  background-image: url(../../img/box-3.svg);
+  background-image: url(../img/box-3.svg);
 }
 
 .box__item + .box__item {
